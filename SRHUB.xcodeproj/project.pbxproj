@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		433209571CB6A7A4009A56EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 433209561CB6A7A4009A56EB /* main.m */; };
+		4332095A1CB6A7A4009A56EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 433209591CB6A7A4009A56EB /* AppDelegate.m */; };
+		4332095D1CB6A7A4009A56EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332095C1CB6A7A4009A56EB /* ViewController.m */; };
+		433209601CB6A7A4009A56EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4332095E1CB6A7A4009A56EB /* Main.storyboard */; };
+		433209621CB6A7A4009A56EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 433209611CB6A7A4009A56EB /* Assets.xcassets */; };
+		433209651CB6A7A4009A56EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 433209631CB6A7A4009A56EB /* LaunchScreen.storyboard */; };
+		433209701CB6A7A4009A56EB /* SRHUBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332096F1CB6A7A4009A56EB /* SRHUBTests.m */; };
+		4332097B1CB6A7A4009A56EB /* SRHUBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4332097A1CB6A7A4009A56EB /* SRHUBUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4332096C1CB6A7A4009A56EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4332094A1CB6A7A4009A56EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433209511CB6A7A4009A56EB;
+			remoteInfo = SRHUB;
+		};
+		433209771CB6A7A4009A56EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4332094A1CB6A7A4009A56EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 433209511CB6A7A4009A56EB;
+			remoteInfo = SRHUB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		433209521CB6A7A4009A56EB /* SRHUB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SRHUB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		433209561CB6A7A4009A56EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		433209581CB6A7A4009A56EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		433209591CB6A7A4009A56EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4332095B1CB6A7A4009A56EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4332095C1CB6A7A4009A56EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4332095F1CB6A7A4009A56EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		433209611CB6A7A4009A56EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		433209641CB6A7A4009A56EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		433209661CB6A7A4009A56EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4332096B1CB6A7A4009A56EB /* SRHUBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRHUBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4332096F1CB6A7A4009A56EB /* SRHUBTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHUBTests.m; sourceTree = "<group>"; };
+		433209711CB6A7A4009A56EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		433209761CB6A7A4009A56EB /* SRHUBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SRHUBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4332097A1CB6A7A4009A56EB /* SRHUBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SRHUBUITests.m; sourceTree = "<group>"; };
+		4332097C1CB6A7A4009A56EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4332094F1CB6A7A4009A56EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433209681CB6A7A4009A56EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433209731CB6A7A4009A56EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		433209491CB6A7A4009A56EB = {
+			isa = PBXGroup;
+			children = (
+				433209541CB6A7A4009A56EB /* SRHUB */,
+				4332096E1CB6A7A4009A56EB /* SRHUBTests */,
+				433209791CB6A7A4009A56EB /* SRHUBUITests */,
+				433209531CB6A7A4009A56EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		433209531CB6A7A4009A56EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				433209521CB6A7A4009A56EB /* SRHUB.app */,
+				4332096B1CB6A7A4009A56EB /* SRHUBTests.xctest */,
+				433209761CB6A7A4009A56EB /* SRHUBUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		433209541CB6A7A4009A56EB /* SRHUB */ = {
+			isa = PBXGroup;
+			children = (
+				433209581CB6A7A4009A56EB /* AppDelegate.h */,
+				433209591CB6A7A4009A56EB /* AppDelegate.m */,
+				4332095B1CB6A7A4009A56EB /* ViewController.h */,
+				4332095C1CB6A7A4009A56EB /* ViewController.m */,
+				4332095E1CB6A7A4009A56EB /* Main.storyboard */,
+				433209611CB6A7A4009A56EB /* Assets.xcassets */,
+				433209631CB6A7A4009A56EB /* LaunchScreen.storyboard */,
+				433209661CB6A7A4009A56EB /* Info.plist */,
+				433209551CB6A7A4009A56EB /* Supporting Files */,
+			);
+			path = SRHUB;
+			sourceTree = "<group>";
+		};
+		433209551CB6A7A4009A56EB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				433209561CB6A7A4009A56EB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4332096E1CB6A7A4009A56EB /* SRHUBTests */ = {
+			isa = PBXGroup;
+			children = (
+				4332096F1CB6A7A4009A56EB /* SRHUBTests.m */,
+				433209711CB6A7A4009A56EB /* Info.plist */,
+			);
+			path = SRHUBTests;
+			sourceTree = "<group>";
+		};
+		433209791CB6A7A4009A56EB /* SRHUBUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4332097A1CB6A7A4009A56EB /* SRHUBUITests.m */,
+				4332097C1CB6A7A4009A56EB /* Info.plist */,
+			);
+			path = SRHUBUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		433209511CB6A7A4009A56EB /* SRHUB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4332097F1CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUB" */;
+			buildPhases = (
+				4332094E1CB6A7A4009A56EB /* Sources */,
+				4332094F1CB6A7A4009A56EB /* Frameworks */,
+				433209501CB6A7A4009A56EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SRHUB;
+			productName = SRHUB;
+			productReference = 433209521CB6A7A4009A56EB /* SRHUB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4332096A1CB6A7A4009A56EB /* SRHUBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433209821CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUBTests" */;
+			buildPhases = (
+				433209671CB6A7A4009A56EB /* Sources */,
+				433209681CB6A7A4009A56EB /* Frameworks */,
+				433209691CB6A7A4009A56EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4332096D1CB6A7A4009A56EB /* PBXTargetDependency */,
+			);
+			name = SRHUBTests;
+			productName = SRHUBTests;
+			productReference = 4332096B1CB6A7A4009A56EB /* SRHUBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		433209751CB6A7A4009A56EB /* SRHUBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 433209851CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUBUITests" */;
+			buildPhases = (
+				433209721CB6A7A4009A56EB /* Sources */,
+				433209731CB6A7A4009A56EB /* Frameworks */,
+				433209741CB6A7A4009A56EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				433209781CB6A7A4009A56EB /* PBXTargetDependency */,
+			);
+			name = SRHUBUITests;
+			productName = SRHUBUITests;
+			productReference = 433209761CB6A7A4009A56EB /* SRHUBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4332094A1CB6A7A4009A56EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Ricky;
+				TargetAttributes = {
+					433209511CB6A7A4009A56EB = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					4332096A1CB6A7A4009A56EB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 433209511CB6A7A4009A56EB;
+					};
+					433209751CB6A7A4009A56EB = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 433209511CB6A7A4009A56EB;
+					};
+				};
+			};
+			buildConfigurationList = 4332094D1CB6A7A4009A56EB /* Build configuration list for PBXProject "SRHUB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 433209491CB6A7A4009A56EB;
+			productRefGroup = 433209531CB6A7A4009A56EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				433209511CB6A7A4009A56EB /* SRHUB */,
+				4332096A1CB6A7A4009A56EB /* SRHUBTests */,
+				433209751CB6A7A4009A56EB /* SRHUBUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		433209501CB6A7A4009A56EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433209651CB6A7A4009A56EB /* LaunchScreen.storyboard in Resources */,
+				433209621CB6A7A4009A56EB /* Assets.xcassets in Resources */,
+				433209601CB6A7A4009A56EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433209691CB6A7A4009A56EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433209741CB6A7A4009A56EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4332094E1CB6A7A4009A56EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4332095D1CB6A7A4009A56EB /* ViewController.m in Sources */,
+				4332095A1CB6A7A4009A56EB /* AppDelegate.m in Sources */,
+				433209571CB6A7A4009A56EB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433209671CB6A7A4009A56EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433209701CB6A7A4009A56EB /* SRHUBTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		433209721CB6A7A4009A56EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4332097B1CB6A7A4009A56EB /* SRHUBUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4332096D1CB6A7A4009A56EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433209511CB6A7A4009A56EB /* SRHUB */;
+			targetProxy = 4332096C1CB6A7A4009A56EB /* PBXContainerItemProxy */;
+		};
+		433209781CB6A7A4009A56EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 433209511CB6A7A4009A56EB /* SRHUB */;
+			targetProxy = 433209771CB6A7A4009A56EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4332095E1CB6A7A4009A56EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4332095F1CB6A7A4009A56EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		433209631CB6A7A4009A56EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				433209641CB6A7A4009A56EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4332097D1CB6A7A4009A56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4332097E1CB6A7A4009A56EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		433209801CB6A7A4009A56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRHUB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		433209811CB6A7A4009A56EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SRHUB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		433209831CB6A7A4009A56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SRHUBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRHUB.app/SRHUB";
+			};
+			name = Debug;
+		};
+		433209841CB6A7A4009A56EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SRHUBTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUBTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SRHUB.app/SRHUB";
+			};
+			name = Release;
+		};
+		433209861CB6A7A4009A56EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SRHUBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SRHUB;
+			};
+			name = Debug;
+		};
+		433209871CB6A7A4009A56EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SRHUBUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUBUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SRHUB;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4332094D1CB6A7A4009A56EB /* Build configuration list for PBXProject "SRHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4332097D1CB6A7A4009A56EB /* Debug */,
+				4332097E1CB6A7A4009A56EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4332097F1CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433209801CB6A7A4009A56EB /* Debug */,
+				433209811CB6A7A4009A56EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		433209821CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433209831CB6A7A4009A56EB /* Debug */,
+				433209841CB6A7A4009A56EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		433209851CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				433209861CB6A7A4009A56EB /* Debug */,
+				433209871CB6A7A4009A56EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4332094A1CB6A7A4009A56EB /* Project object */;
+}
