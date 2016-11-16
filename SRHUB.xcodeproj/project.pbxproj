@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					433209511CB6A7A4009A56EB = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DRDBCGP8F6;
 					};
 					4332096A1CB6A7A4009A56EB = {
 						CreatedOnToolsVersion = 7.3;
@@ -415,6 +416,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRDBCGP8F6;
 				INFOPLIST_FILE = SRHUB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUB;
@@ -426,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DRDBCGP8F6;
 				INFOPLIST_FILE = SRHUB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cjzkw.SRHUB;
@@ -498,6 +501,7 @@
 				433209811CB6A7A4009A56EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		433209821CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUBTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				433209841CB6A7A4009A56EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		433209851CB6A7A4009A56EB /* Build configuration list for PBXNativeTarget "SRHUBUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				433209871CB6A7A4009A56EB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
